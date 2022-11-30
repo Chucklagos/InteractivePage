@@ -1,27 +1,23 @@
 #game{
-    height: 95vh;
-    width: 95vw;
-    /*outline: 2px solid black;*/
-    /*position: relative;*/
-    /*background-color: rgba(94, 217, 255, 0.829);*/
+    height: 34em;
+    width: fit-content;
 }
 
 #scenario{
-    height: 95vh;
     width: 1000px;
-    /*outline: 2px solid black;*/
-    position: relative;
-    /*background-color: rgba(58, 92, 102, 0.829);*/
-    background-image: url('img/bg.jpg');
-    background-repeat: repeat;
+    position: absolute;
+}
+
+#bg{
+    background-repeat: repeat-x;
 }
 
 #character{
     height: 200px;
     width: 170px;
     outline: 1px solid black;
-    position: relative;
-    top: 60vh;
+    position: absolute;
+    top: 20em;
 }
 
 #img{
@@ -29,12 +25,11 @@
     width: 160px;
 }
 
-#block{
-    width: 1000px;
-    height: 20px;
-    background-color: brown;
-}
-
 body{
     overflow: hidden;
+}
+
+#rightButton{
+    position: relative;
+    top: 90%;
 }
