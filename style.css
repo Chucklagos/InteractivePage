@@ -1,0 +1,30 @@
+#game{
+    height: 95vh;
+    width: 95vw;
+    /*outline: 2px solid black;*/
+    /*position: relative;*/
+    background-color: rgba(94, 217, 255, 0.829);
+}
+
+#character{
+    height: 200px;
+    width: 170px;
+    outline: 1px solid black;
+    position: relative;
+    top: 60vh;
+}
+
+#img{
+    height: 200px;
+    width: 160px;
+}
+
+#block{
+    width: 1000px;
+    height: 20px;
+    background-color: brown;
+}
+
+body{
+    overflow: hidden;
+}
