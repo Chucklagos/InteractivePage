@@ -1,13 +1,14 @@
 let gameDiv = document.getElementById('game');
 let characterDiv = document.getElementById('character');
+let scenarioDiv = document.getElementById('scenario');
 
 document.addEventListener('keydown', handleKeys)
-var characterLeftAdd = 0;
+var scenarioLeftAdd = 0;
 function handleKeys(e){
     let keyPress = e.code;
-    if (keyPress === 'ArrowRight'){
-        characterLeftAdd += 10;
-        characterDiv.style.left = characterLeftAdd + 'px';
+    if (keyPress === 'ArrowLeft'){
+        scenarioLeftAdd += 10;
+        scenarioDiv.style.left = scenarioLeftAdd + 'px';
 
         /*if (characterLeftAdd >= 1500) {
             alert ('Llego al limite');
@@ -15,14 +16,14 @@ function handleKeys(e){
         }*/
 
     }
-    if (keyPress === 'ArrowLeft'){
-        characterLeftAdd -= 10;
-        characterDiv.style.left = characterLeftAdd + 'px';
+    if (keyPress === 'ArrowRight'){
+        scenarioLeftAdd -= 10;
+        scenarioDiv.style.left = scenarioLeftAdd + 'px';
     }
-    if (characterLeftAdd <= 0) {
+    /*if (scenarioLeftAdd <= 0) {
         alert ('Llego al limite');
-        characterLeftAdd +=1
-    }
+        scenarioLeftAdd +=1
+    }*/
 
 }
 document.getElementById('rightButton').addEventListener('click', handleTouch);

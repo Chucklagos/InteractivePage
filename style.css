@@ -3,7 +3,17 @@
     width: 95vw;
     /*outline: 2px solid black;*/
     /*position: relative;*/
-    background-color: rgba(94, 217, 255, 0.829);
+    /*background-color: rgba(94, 217, 255, 0.829);*/
+}
+
+#scenario{
+    height: 95vh;
+    width: 1000px;
+    /*outline: 2px solid black;*/
+    position: relative;
+    /*background-color: rgba(58, 92, 102, 0.829);*/
+    background-image: url('img/bg.jpg');
+    background-repeat: repeat;
 }
 
 #character{
